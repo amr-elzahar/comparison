@@ -141,8 +141,8 @@ All three tools support multiple platforms, including Linux and Windows.
 **6) Configuration Language:**
 
 1. **Ansible:** Uses YAML for writing playbooks.
-2. **Chef:** Uses Ruby for writing Cookbooks and Recipes.
-3. **Puppet:** Uses DSL (Domain-Specific Language).
+2. **Chef:** Uses Ruby DSL (Domain-Specific Language) for writing Cookbooks and Recipes.
+3. **Puppet:** Uses Ruby, Puppet DSL and Embeded Ruby (ERB).
 
 **7) Infrastructure Size and Complexity:**
 
@@ -167,12 +167,18 @@ All three tools support integration with various other tools and have extensible
 
 **11) Ease of Setup:**
 
-1. **Ansible:** Requires to install ansible on the master only (agentless).
-2. **Chef:** Requires to install chef on the master and chef client on the agent/slave (client-server architecture).
-3. **Puppet:** Requires to install puppet on the master and puppet client on the agent/slave (client-server architecture).
+1. **Ansible:** Easy because it requires to install ansible on the master only (agentless).
+2. **Chef:** Difficult because it requires to install chef on the master and chef cleint on the agent/slave (client-server architecture).
+3. **Puppet:** Difficult because it requires to install puppet on the master and puppet client on the agent/slave (client-server architecture).
 
 **12) Tool Configuration:** Push configuration management tools intiate and actively push configuration changes from a central server to target systems for immediate updates, often using agents. In contrast, pull configuration management tools allow target systems to autonomously fetch configurations from a central repository periodically or on-demand, and the option for agentless or lightweight agents.
 
 1. **Ansible:** Offers both approaches push (default) and pull.
 2. **Chef:** Supports pull approache.
 3. **Puppet:** Supports pull approache as well.
+
+**12) Tool Capabilities:** Each tool has its own capabilities. Hers are some these capabilities for each tool:
+
+1. **Ansible:** Offers Continuous delivery, app deployment, infrastructure automation (IaC).
+2. **Chef:** Offers Continuous delivery, infrastructure automation (IaC), Securty and compliance.
+3. **Puppet:** Offers visualization and reporting, and role-based access.
