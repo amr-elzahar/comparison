@@ -177,7 +177,7 @@ All three tools support integration with various other tools and have extensible
 2. **Chef:** Supports pull approache.
 3. **Puppet:** Supports pull approache as well.
 
-**12) Tool Capabilities:** Each tool has its own capabilities. Hers are some these capabilities for each tool:
+**12) Tool Capabilities:** Each tool has its own capabilities. Hers are some of these capabilities for each tool:
 
 1. **Ansible:** Offers Continuous delivery, app deployment, infrastructure automation (IaC).
 2. **Chef:** Offers Continuous delivery, infrastructure automation (IaC), Securty and compliance.
